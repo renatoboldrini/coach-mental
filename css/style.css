@@ -17,7 +17,7 @@ p {
 }
 
 a {
-    color: #fed136;
+    color: #c52f33;
 }
 
 a.active,
@@ -118,7 +118,7 @@ body {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: #c52f33;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
@@ -717,8 +717,8 @@ ul.social-buttons li a:hover {
 .btn-primary {
     font-weight: 700;
     color: white;
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #c52f33;
+    background-color: #c52f33;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
@@ -853,6 +853,71 @@ fieldset[disabled] .btn-xl:hover {
     background-color: white;
 }
 
+.whatsapp {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 3px;
+    color: white;
+    border-color: #0dc143;
+    background-color: #0dc143;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.facebook {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 3px;
+    color: white;
+    border-color: #4267b2;
+    background-color: #4267b2;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.email {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 3px;
+    color: black;
+    border-color: #c1c1c1;
+    background-color: #c1c1c1;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.highlighttexto1 {
+    background: #c52f33;
+    opacity: 0.7;
+    padding: 3px 5px;
+    margin: -3px -5px;
+    /*line-height: 1.7;*/
+    border-radius: 2px;
+    display:inline
+}
+
+.highlighttexto2 {
+    color: #ffffff;
+    opacity: 0.9;
+}
+
+.highlighttexto3 {
+    background: #000000;
+    opacity: 1;
+    padding: 3px 5px;
+    margin: -3px -5px;
+    /*line-height: 1.7;*/
+    border-radius: 2px;
+    display:inline
+}
+
+.video {
+    width: 80%; 
+    margin: auto;
+}
 
 /* Inicio do meu CSS */
 
