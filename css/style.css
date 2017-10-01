@@ -24,7 +24,7 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #fec503;
+    color: #000000;
 }
 
 h1,
@@ -110,7 +110,7 @@ body {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-    color: #fec503;
+    color: #c52f33;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -778,7 +778,7 @@ fieldset[disabled] .btn-primary:hover {
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #c52f33;
     background-color: white;
 }
 
@@ -797,22 +797,22 @@ fieldset[disabled] .btn-primary:hover {
 .btn-xl.focus,
 .btn-xl:focus {
     color: white;
-    border-color: #b48b01;
-    background-color: #fec503;
+    border-color: #c52f33;
+    background-color: #c52f33;
 }
 
 .btn-xl:hover {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: #c52f33
+    background-color: #c52f33;
 }
 
 .btn-xl.active,
 .btn-xl:active,
 .open>.btn-xl.dropdown-toggle {
     color: white;
-    border-color: #f6bf01;
-    background-color: #fec503;
+    border-color: #c52f33;
+    background-color: #c52f33;
 }
 
 .btn-xl.active.focus,
@@ -825,8 +825,8 @@ fieldset[disabled] .btn-primary:hover {
 .open>.btn-xl.dropdown-toggle:focus,
 .open>.btn-xl.dropdown-toggle:hover {
     color: white;
-    border-color: #b48b01;
-    background-color: #dcab01;
+    border-color: #c52f33;
+    background-color: #c52f33;
 }
 
 .btn-xl.active,
@@ -844,19 +844,31 @@ fieldset[disabled] .btn-primary:hover {
 fieldset[disabled] .btn-xl.focus,
 fieldset[disabled] .btn-xl:focus,
 fieldset[disabled] .btn-xl:hover {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #c52f33;
+    background-color: #c52f33;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #c52f33;
     background-color: white;
+}
+
+.btn-med {
+    font-size: 12px;
+    font-weight: 200;
+    padding: 10px 15px;
+    border-radius: 2px;
+    color: white;
+    border-color: #c52f33;
+    background-color: #c52f33;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 .whatsapp {
     font-size: 18px;
     font-weight: 700;
-    padding: 20px 40px;
+    padding: 20px 22px;
     border-radius: 3px;
     color: white;
     border-color: #0dc143;
@@ -868,7 +880,7 @@ fieldset[disabled] .btn-xl:hover {
 .facebook {
     font-size: 18px;
     font-weight: 700;
-    padding: 20px 40px;
+    padding: 20px 22px;
     border-radius: 3px;
     color: white;
     border-color: #4267b2;
@@ -880,11 +892,11 @@ fieldset[disabled] .btn-xl:hover {
 .email {
     font-size: 18px;
     font-weight: 700;
-    padding: 20px 40px;
+    padding: 20px 22px;
     border-radius: 3px;
-    color: black;
-    border-color: #c1c1c1;
-    background-color: #c1c1c1;
+    color: white;
+    border-color: #838383;
+    background-color: #838383;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
